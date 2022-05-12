@@ -15,7 +15,7 @@ def pregunta_01():
     Complete el código presentado a continuación.
     """
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
-    df = pd.ead_csv('gm_2008_region.csv')
+    df = pd.read_csv('gm_2008_region.csv')
     df.head()
 
     # Asigne la columna "life" a `y` y la columna "fertility" a `X`
